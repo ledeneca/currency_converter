@@ -1,1 +1,1 @@
-# currency_converter
+A simple command-line application.
