@@ -44,17 +44,17 @@ void main(List<String> arguments) {
 
   if (typeOfOperation == '1') {
     if (currency == 'USD') {
-      print('Обмен ${num.parse(sum!) * mapSale['Доллар']} USD на $sum сом');
+      print('Обмен ${num.parse(sum!) * mapSale['Доллар']} сом на $sum USD');
     } else if (currency == 'EURO') {
-      print('Обмен ${num.parse(sum!) * mapSale['Евро']} EURO на $sum сом');
+      print('Обмен ${num.parse(sum!) * mapSale['Евро']} сом на $sum EURO');
     } else if (currency == 'RUB') {
-      print('Обмен ${num.parse(sum!) * mapSale['Рубль']} RUB на $sum сом');
+      print('Обмен ${num.parse(sum!) * mapSale['Рубль']} сом на $sum RUB');
     } else if (currency == 'KZT') {
-      print('Обмен ${num.parse(sum!) * mapSale['Тенге']} KZT на $sum сом');
+      print('Обмен ${num.parse(sum!) * mapSale['Тенге']} сом на $sum KZT');
     } else if (currency == 'JPY') {
-      print('Обмен ${num.parse(sum!) * mapSale['Йена']} JPY на $sum сом');
+      print('Обмен ${num.parse(sum!) * mapSale['Йена']} сом на $sum JPY');
     } else if (currency == 'AED') {
-      print('Обмен ${num.parse(sum!) * mapSale['Дирхам']} AED на $sum сом');
+      print('Обмен ${num.parse(sum!) * mapSale['Дирхам']} сом на $sum AED');
     }
   } else if (typeOfOperation == '2') {
     if (currency == 'USD') {
